@@ -1,0 +1,6 @@
+FACT Mother(May,Mary)
+FACT Mother(Mary,Beth)
+FACT Father(Dan,Bob)
+FACT Father(Bob,Ben)
+RULE Parent($A,$B):- OR Father($A,$B) Mother($A,$B) 
+RULE Grandfather($X,$Y):- AND Father($X,$Z) Father($Z,$Y) 

@@ -1,0 +1,4 @@
+FACT Father(Dan,Bob)
+FACT Mother(May,Mary)
+FACT Father(Bob,Ben)
+FACT Mother(Mary,Beth)
